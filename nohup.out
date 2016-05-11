@@ -1,0 +1,55 @@
+app is running at port 3002
+抱歉，您还没有登录！
+登录！
+登录成功！
+app is running at port 3002
+抱歉，您还没有登录！
+登录！
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3002
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1237:14)
+    at listen (net.js:1273:10)
+    at Server.listen (net.js:1369:5)
+    at EventEmitter.listen (/mynote/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/mynote/index.js:408:5)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+登录！
+登录成功！
+查看笔记！
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3002
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1237:14)
+    at listen (net.js:1273:10)
+    at Server.listen (net.js:1369:5)
+    at EventEmitter.listen (/mynote/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/mynote/index.js:408:5)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::3002
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1237:14)
+    at listen (net.js:1273:10)
+    at Server.listen (net.js:1369:5)
+    at EventEmitter.listen (/mynote/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/mynote/index.js:408:5)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title><%= title %></title>
+
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="/css/bootstrap.css" />
+		<link rel="stylesheet" href="/css/font-awesome.css" />
+
+		<!-- page specific plugin styles -->
+
+		<!-- text fonts -->
+		<link rel="stylesheet" href="/css/ace-fonts.css" />
+
+		<!-- ace styles -->
+		<link rel="stylesheet" href="/css/ace.css"  />
+
+		
+	
+	
+	</head>
+
+	<body>
+		
+		<!-- #section:basics/navbar.layout -->
+		<div id="navbar" class="navbar navbar-default">
+			
+
+			
+				<!-- #section:basics/sidebar.mobile.toggle -->
+				
+				<!-- /section:basics/sidebar.mobile.toggle -->
+				<div class="navbar-header pull-left">
+					<!-- #section:basics/navbar.layout.brand -->
+					<div class="navbar-brand">
+						<div class="pull-left"><font style="font-family:verdana"><smaller>Welcome, <%= user[0].username %>!&nbsp;&nbsp;&nbsp;</smaller></font></div>
+					</div>		
+									
+					<div class="navbar-buttons navbar-header pull-left" role="navigation">
+						<ul class="nav ace-nav">
+							<li class="grey">
+								<a href="/post">
+								<div class="navbar-brand"><small><font style="font-family:verdana">post</font></small></div>
+								</a>
+							</li>				
+						</ul>
+					</div>
+					
+					<div class="navbar-buttons navbar-header pull-left" role="navigation">
+						<ul class="nav ace-nav">
+							<li class="green">
+								<a href="/detail">
+								<div class="navbar-brand"><small><font style="font-family:verdana">mynote</font></small></div>
+								</a>
+							</li>				
+						</ul>
+					</div>
+					
+				</div>
+
+				<!-- #section:basics/navbar.dropdown -->
+				<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">		
+						<li class="purple">
+							<a href="/quit">
+								<div class="navbar-brand"><small><font style="font-family:verdana">quit</font></small></div>
+							</a>
+						</li>		
+					</ul>
+				</div>
+				<!-- /section:basics/navbar.dropdown -->
+			<!-- /.navbar-container -->
+		</div>
+
+		<!-- /section:basics/navbar.layout -->
+		<div class=" main-container" id="main-container" >
+			
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="main-content-inner">
+					<div class="col-xs-8 col-xs-offset-2">
+							<div id="login-box" class="login-box visible widget-box no-border">
+									<div class="widget-body">
+										<div class="widget-main">
+											
+											<h1 class=" blue lighter bigger center">
+												Write your note
+											</h1>
+											<br>
+											
+											<div class="space-6"></div>
+											
+											<form method="post">
+
+												<div class="form-group">
+													<input type="text" class="form-control" name="title" placeholder="title">
+												</div>
+
+												<div class="form-group">
+													<input type="text" class="form-control" name="tag" placeholder="tag">
+												</div>
+
+												
+												<div class="form-group">
+													<textarea class="form-control" rows= "15" name="content" placeholder="content"></textarea>
+												</div>
+
+												
+												<button type="submit" class="width-35 pull-right btn btn-sm btn-primary">
+													<span class="bigger-100">Post</span>
+												</button>
+											</form>
+
+											
+										</div><!-- /.widget-main -->
+
+										
+									</div><!-- /.widget-body -->
+							</div><!-- /.login-box -->
+					</div>
+				</div>
+			</div><!-- /.main-content -->
+
+			<div class="footer">
+				<div class="footer-inner">
+					<!-- #section:basics/footer -->
+					<div class="footer-content">
+						<span class="bigger-120">
+							<span class="blue bolder">MyNote</span>
+							Application &copy; 2016
+						</span>
+					</div>
+
+					<!-- /section:basics/footer -->
+				</div>
+			</div>
+
+			
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->		
+		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
